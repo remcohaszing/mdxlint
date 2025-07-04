@@ -1,0 +1,51 @@
+{
+  "name": "mdxlint",
+  "version": "0.0.0",
+  "description": "A unified-engine base CLI for MDX",
+  "keywords": [
+    "cli",
+    "format",
+    "formatter",
+    "lint",
+    "linter",
+    "mdast",
+    "mdx",
+    "remark",
+    "unified"
+  ],
+  "homepage": "https://github.com/remcohaszing/mdxlint#readme",
+  "bugs": "https://github.com/remcohaszing/mdxlint/issues",
+  "repository": "remcohaszing/mdxlint",
+  "funding": "https://github.com/sponsors/remcohaszing",
+  "license": "MIT",
+  "author": "Remco Haszing <remcohaszing@gmail.com>",
+  "sideEffects": false,
+  "type": "module",
+  "exports": "./lib/mdxlint.js",
+  "bin": "./lib/bin.js",
+  "files": [
+    "lib",
+    "logo.svg"
+  ],
+  "scripts": {
+    "test": "c8 node --test"
+  },
+  "dependencies": {
+    "@types/mdast": "^4.0.0",
+    "remark-mdx": "^3.0.0",
+    "remark-parse": "^11.0.0",
+    "remark-stringify": "^11.0.0",
+    "unified": "^11.0.0",
+    "unified-args": "^11.0.0"
+  },
+  "devDependencies": {
+    "@remcohaszing/eslint": "^11.0.0",
+    "@types/node": "^24.0.0",
+    "c8": "^10.0.0",
+    "mdxlint": ".",
+    "prettier": "^3.0.0",
+    "remark-cli": "^12.0.0",
+    "remark-preset-remcohaszing": "^3.0.0",
+    "typescript": "^5.0.0"
+  }
+}
