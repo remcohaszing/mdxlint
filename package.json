@@ -1,6 +1,6 @@
 {
   "name": "mdxlint",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A unified-engine base CLI for MDX",
   "keywords": [
     "cli",
