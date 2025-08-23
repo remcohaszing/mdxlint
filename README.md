@@ -188,6 +188,10 @@ This project is compatible with Node.js 20 or greater.
 - [`eslint-plugin-mdx`](https://github.com/mdx-js/eslint-mdx) can check MDX files using ESLint. It
   can also apply remark rules via the [`mdx/remark`](https://github.com/mdx-js/eslint-mdx#mdxremark)
   rule.
+- [`mdxlint-language-server`](https://github.com/remcohaszing/mdxlint-language-server) provides a
+  language server for mdxlint.
+- [`vscode-mdxlint`](https://github.com/remcohaszing/vscode-mdxlint) provides a
+  [Visual Studio Code](https://code.visualstudio.com/) extension for mdxlint.
 
 ## Sponsoring
 
