@@ -1,6 +1,6 @@
-import { type Root } from 'mdast'
-import { type Options } from 'remark-stringify'
-import { type Plugin, type PluginTuple, type Preset, type Processor } from 'unified'
+import type { Root } from 'mdast'
+import type { Options } from 'remark-stringify'
+import type { Plugin, PluginTuple, Preset, Processor } from 'unified'
 
 type PluggableMap = Record<string, unknown>
 type PluggableSupportingSpecifiers =
